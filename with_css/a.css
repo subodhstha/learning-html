@@ -1,0 +1,63 @@
+h1,h2,h3
+{
+    color: gold;
+}
+h4
+{
+    color:brown;
+}
+.black
+{
+    color: black;
+    font-size: medium;
+}
+.red
+{
+    color: red;
+    font: small;
+    font-weight: bold;
+}
+.ram
+{
+    text-decoration: underline;
+}
+.large{
+    font-size: x-large;
+    font-family: cursive;
+    color: rosybrown;
+}
+body
+{
+    background-color: darkolivegreen;
+    color: chartreuse;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#dev1{
+
+    width: 80%;
+    border: 3px solid;
+    border-color: black;
+    background-color: blue;
+    color: blueviolet;
+}
+#dev2{
+
+    width: 80%;
+    border: 3px solid;
+    border-color: black;
+    background-color: blue;
+    color: blueviolet;
+    margin: 20px;
+}
+#dev1{
+
+    width: 80%;
+    border: 3px solid;
+    border-color: black;
+    background-color: blue;
+    color: blueviolet;
+}
+.underline
+{
+    text-decoration: underline;
+}
