@@ -1,63 +1,85 @@
-h1,h2,h3
-{
-    color: gold;
+h1,
+h2,
+h3 {
+  color: gold;
 }
-h4
-{
-    color:brown;
+h4 {
+  color: brown;
 }
-.black
-{
-    color: black;
-    font-size: medium;
+.black {
+  color: black;
+  font-size: medium;
 }
-.red
-{
-    color: red;
-    font: small;
-    font-weight: bold;
+.red {
+  color: red;
+  font: small;
+  font-weight: bold;
 }
-.ram
-{
-    text-decoration: underline;
+.ram {
+  text-decoration: underline;
 }
-.large{
-    font-size: x-large;
-    font-family: cursive;
-    color: rosybrown;
+.large {
+  font-size: x-large;
+  font-family: cursive;
+  color: rosybrown;
 }
-body
-{
-    background-color: darkolivegreen;
-    color: chartreuse;
-    font-family:Arial, Helvetica, sans-serif;
+body {
+  background-color: darkolivegreen;
+  color: chartreuse;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#dev1{
-
-    width: 80%;
-    border: 3px solid;
-    border-color: black;
-    background-color: blue;
-    color: blueviolet;
+#dev1 {
+  width: 80%;
+  border: 3px solid;
+  border-color: black;
+  background-color: blue;
+  color: blueviolet;
 }
-#dev2{
-
-    width: 80%;
-    border: 3px solid;
-    border-color: black;
-    background-color: blue;
-    color: blueviolet;
-    margin: 20px;
+#dev2 {
+  width: 80%;
+  border: 3px solid;
+  border-color: black;
+  background-color: blue;
+  color: blueviolet;
+  margin: 20px;
 }
-#dev1{
-
-    width: 80%;
-    border: 3px solid;
-    border-color: black;
-    background-color: blue;
-    color: blueviolet;
+#dev3 {
+  width: 80%;
+  border: 3px;
+  background: yellow;
+  color: teal;
+  margin: 0px 0px 50px 10px;
+  padding: 30px 0px 0px 15px;
 }
-.underline
-{
-    text-decoration: underline;
+.underline {
+  text-decoration: underline;
+}
+.textcolor {
+  color: tomato;
+}
+.lspace {
+  letter-spacing: 10px;
+}
+.wspace {
+  word-spacing: 10px;
+}
+.align {
+  text-align: center;
+}
+.textdeco {
+  text-decoration: underline;
+}
+.texttrans {
+  text-transform: uppercase;
+}
+.textstyle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-style: oblique;
+  line-height: 200%;
+}
+.border {
+  border: 4px;
+  border-color: yellowgreen;
+  border-style: dashed;
 }

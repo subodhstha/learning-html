@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>FORM</h1><hr>
+    <br>
+    <h2>Get Methode</h2>
+    <form method="GET" action="">
+        First Name<input type= "text" name="fname"><br>
+        Last Name<input type= "text" name="lname" placeholder="ram, sita"><br>
+        <input type= "submit" name="submit" value="submit">
+    </form>
+    <hr>
+    <h2>Post Methode</h2>
+    <form method="post" action="process.php" enctype="multipart/form-data" target="_blank">
+        First Name:<input type= "text" name="fname" size="20" maxlength="50"  placeholder="Enter name"><br>
+        Last Name:<input type= "text" name="lname" value="Enter Name"><br>
+        Password:<input type="password" name="password"><br>
+        <textarea rows="5" cols="50" name="Describe">Describe Yourself....</textarea><br>
+        <input type= "submit" name="submit" value="submit">
+        <input type= "reset" name="reset" value="reset"><br>
+        <input type= "button" name="general" value="general button">
+    </form>
+    <hr>
+    <br>
+    <br>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend><strong>User Information</strong></legend>
+            <label for="email">E-mail</label>
+            <input type="email" name="email"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female
+            Hobby:<br>
+            <input type="checkbox" name="football" value="football">Football <br>
+            <input type="checkbox" name="cricket" value="cricket">Cricket <br>
+            <input type="checkbox" name="volleyball" value="volleyball">volleyball <br>
+            Upload File:
+            <input type="file" name="upfile" accept="image/*"><br>
+            Countries:
+            <select name="Countries" id="" multiple>
+                <option value="America">America</option>
+                <option value="Australia">Australia</option>
+                <option value="Africa">Africa</option>
+                <option value="Canda">Canda</option>
+                <option value="Nepal" selected>Nepal</option>
+                <option value="Denmark">Denmark</option>
+            </select>
+            <br>
+            Hidden box: <input type="Hidden" name="Hudden" value="data"><br>
+            <input type="submit" name="submit" id="" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

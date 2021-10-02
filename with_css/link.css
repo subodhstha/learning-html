@@ -1,0 +1,15 @@
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: darkblue;
+}
+a:hover {
+  color: saddlebrown;
+  text-decoration: underline;
+  background-color: slategrey;
+}
+a:active {
+  color: darkviolet;
+}
