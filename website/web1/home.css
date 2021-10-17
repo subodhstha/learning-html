@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    height: 75px;
+    background: turquoise;
+    position: sticky;
+    top: 0px;
+}
+
+.navi{
+    float: right;    
+    list-style-type: none;
+    overflow: hidden;
+    padding: 8px;
+    margin: 0px;
+}
+
+.navi_li{
+    float: left;
+}
+
+.navig{
+    display: block;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+
+.navig:hover{
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.logo_pic{
+    height: 75px;
+    width: 100px;
+    float: left;
+}
+
+.search_pic{
+    height: 20px;
+    width: 20px;    
+}
+
+.slide{
+    background: rosybrown;
+    height: 550px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.top{
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+    background-color:purple;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.top_button{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    padding: 10px;
+    color: blanchedalmond;
+}
+
+.group_box{
+    background: blue;
+    height: 325px;
+    overflow: hidden;
+}
+
+.box{
+    overflow: hidden;
+    background-color:brown;
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+}
+.box_img{
+    height: 250px;
+    width: 250px;
+}
+
+.box:hover{
+    transform: scale(.75);
+    transition: .25s;
+}
+
+.contain{
+    height: 600px;
+    background-color: hotpink;
+}
+
+.contain_text{
+    text-align: center;
+    font-size: xx-large;
+}
+
+iframe{
+    overflow: hidden;
+    height: 450px;
+    width: 550px;
+    padding: 0px 450px;
+    border: none;
+}
+
+.last{
+    height: 200px;
+    background-color: green;
+}
+
+.l_contain{
+    text-align: center;
+    font-size: 5rem;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+
+.social_media{
+    padding: 0px 591px;
+}
+
+.social{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.social:hover{
+    transform: scale(.75);
+    transition: .25s;
+}
