@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./image/bg.png");
+}
+.main{
+    height: 430px;
+    background: #36393f;
+    margin: 103px 290px 0px 290px;
+    position: fixed;
+    border-radius: 5px;
+}
+.login_box{
+    margin: 55px 30px 0px 30px;
+    height: 375px;
+    width: 725px;
+}
+.wel{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.lin{
+    padding: 7px 0px 0px 0px;
+    font-size: 17px;
+    color: #b5b7ba;
+}
+.left{
+    float: left;
+    height: 390px;
+    width: 420px;
+}
+
+.mail{
+    padding: 22px 0px 0px 0px; 
+    color: #b5b7ba; 
+     
+}
+.box{
+    margin: 9px 0px 0px 0px;
+    padding: 6px 0px 0px 0px;
+    width: 415px;
+    height: 30px;
+}
+.pass{
+    margin: 10px 0px 0px 0px;
+    color: #b5b7ba;      
+}
+.forg a{
+    text-decoration: none;
+    color: rgb(0 109 244);
+    font-size: 18px;
+}
+.login_btn{
+    padding: 20px 0px 0px 0px;
+}
+.login{
+    width: 415px;
+    height: 45px;
+    background: rgb(88 101 242);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.login:hover{
+    cursor: pointer;
+    background: rgb(0 75 255);
+}
+.forg{
+    margin: 5px 0px 0px 0px;
+}
+.last{
+    margin: 15px 0px 0px 0px;  
+    color: #62656c;  
+}
+.last a{
+    color: rgb(0 109 244);
+}
+
+.right{
+    float: right;
+    width: 305px;
+    height: 390px;
+}
+.img img{
+    margin: 35px 0px 0px 100px;
+    height: 175px;
+    width: 175px;
+}
+.r_text{
+    margin: 35px 0px 0px 75px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.scn{
+    margin: 15px 0px 0px 75px;
+    color: #7e8186;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    color: #94979b;
+}
