@@ -37,7 +37,7 @@
 }
 
 .nav_list{
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -49,6 +49,8 @@
 .nav_list li a{
     text-decoration: none;
     color: white;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav_list li a:hover{
@@ -56,7 +58,7 @@
 }
 
 .nav_right{
-    width: 50%;
+    width: 30%;
     text-align: right;
     align-items: center;
     padding: 0px 23px;
@@ -81,7 +83,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto;
-    height: 75%;
+    height: 100%;
 }
 
 .f_half{
@@ -119,21 +121,28 @@
     background: none;
     cursor: pointer;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 
 .btn_sm{
     padding: 6px 10px;
     vertical-align: middle;
+    font-size: 16px;
+}
+.btn_drk{
+    color: black;
+    border: grey 2px solid;
 }
 
 .section{
-    height: 450px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
 }
 
 .para{
@@ -155,4 +164,46 @@
     border: solid rgb(49, 42, 42) 2px;
     border-radius: 10px;
     margin-top: 15px;
+}
+.contact{
+    background: rgb(236, 236, 236);
+    height: 635px;
+}
+.con{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+}
+.form{
+    max-width: 400px;
+    margin: 25px auto;
+}
+.form_input{
+    margin: 14px 0;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 20px;
+    color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 3px 3px;
 }
