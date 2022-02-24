@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1000px)
+{
+    .nav_list{
+        margin: 20px 0px 0px 10px; 
+    }
+    .navigation{
+        transition: all 0.7s ease-out;
+        height: 78px;
+    }
+    .nav_list li{
+        float: none;
+        padding: 15px;
+    }
+    .burger{
+        display: block;
+    }
+    .resp{
+        opacity: 0;
+    }
+    /* .resp_nav{
+        height: 300px;
+    } */
+    .contact{
+        height: 100vh;
+    }
+    .co_left{
+        float: none;
+        margin: 0px 45%;
+    }
+    .co_right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 20%;
+    }
+
+}

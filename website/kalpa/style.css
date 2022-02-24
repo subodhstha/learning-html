@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela', sans-serif;
+}
+.background{
+    /* background: rgba(0, 0, 0, 0.5)url('img/image.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 100vh; */
+    background: linear-gradient(115.3deg, #5089fa 5.11%, #ffffff 93.26%);
+    /* opacity: 0.5; */
+}
+.navigation{
+    height: 78px;
+    position: sticky;
+    top: 0px;
+    background: white;
+    /* opacity: 0.9; */
+}
+.nav_list{
+    float: right;
+    overflow: hidden;
+    padding: 28px;
+}
+.nav_list li{
+    list-style-type: none;
+    float: left;
+}
+.nav_list li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    color:rgb(90, 90, 90);
+}
+.nav_list li a:hover{
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+}
+.logo img{
+    height: 78px;
+    margin-left: 35px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+}
+.line{
+    width: 33px;
+    background-color: rgb(90, 90, 90);
+    height: 5px;
+    margin: 3px 3px;
+}
+.con{
+    height: 100vh;
+}
+.te{
+    font-weight: bolder;
+    padding: 210px;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.services{
+    background: linear-gradient(64.5deg, #5089fa 5.11%, #ffffff 93.26%);
+    overflow: hidden;
+}
+.services h1{
+    text-align: center;
+    font-size: 50px;
+}
+.left{
+    float: left;
+}
+.box img{
+    width: 645px;
+    height: 400px;
+}
+.box p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.box{
+    margin: 50px;
+    cursor: pointer;
+}
+.right{
+    float: right;
+}
+
+.box:hover{
+    transform: scale(.75);
+    transition: .25s;
+}
+.about_us{
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+}
+.about_us h1{
+    padding: 200px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.about_us p {
+    text-align: center;
+    font-size: x-large;
+}
+.about_background{
+    background: rgba(0, 0, 0, 0.5)url('img/coding-jobs-1024x683.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+.contact{
+    background: rgb(30, 36, 80);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 80vh;
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 90px;
+}
+.contact p{
+    text-align: center;
+    font-size: x-large;
+}
+.right_box{
+    margin: 0px 40px 0px 40px;
+}
+.right_box p{
+    text-align: center;
+}
+.co_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    background: white;
+    color: black;
+    margin: 22px 185px 0px 0px;
+    height: 240px;
+}
+.form{
+    font-size: 18px;
+    height: 25px;
+    border: none;
+    margin: 10px 0px;
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+button{
+    background: rgb(255, 11, 11);
+}
+.co_left{
+    float: left;
+    margin: 10px 0px 0px 185px;
+}
+.l_con{
+    margin: 25px 0px ;
+}
+.send{
+    background: rgb(194, 194, 194);
+    border: rgb(92, 92, 92) solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background: black;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+.img_logo{
+    margin: 8px;
+    height: 30px;
+}
